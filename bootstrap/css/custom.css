@@ -1,0 +1,275 @@
+body{
+    background-color: #2a2a55;
+    overflow-x: hidden;
+}
+
+.navbar-nav a{
+    color: white;
+    font-weight: bolder;
+}
+
+.navbar-nav li{
+    margin: 20px;
+}
+
+.nav-top{
+    margin: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    position: relative;
+    top: 0px;
+}
+
+.x{
+    margin-left: 30px;
+    color: white;
+}
+
+.row{
+    margin-left: 10px;
+}
+
+.footer{
+    height: 300px;
+    width: 95%;
+    background-color: #0c0d03;
+    display: flex;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+h5{
+    color: white;
+}
+
+.p5{
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.posts, .spawn, .social{
+    height: 240px;
+    width: 30%;
+    margin: 3%;
+    color: blanchedalmond;
+    display: grid;
+}
+
+.post-img{
+    height: 240px;
+    width: 100%;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-rss {
+    background: #ff6600;
+    color: white;
+}
+
+.btn-foot{
+    background-color: beige;
+    color: #0c0d03;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+
+.x h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.y{
+    margin-left: 20px;
+    color: white;
+    position: relative;
+}
+
+.y-1, .x-1{
+    margin-left: 33px;
+    color: white;
+    background-color: #3c417f;
+    border-radius: 10px;
+}
+
+.drexel-img{
+    height: 500px;
+    width: 91%;
+    margin-left: 50px;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 170px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+}
+
+
+.container-main{
+    margin-bottom: -40px;
+    margin-top: -40px;
+    width: 70%;
+}
+
+.card-signin {
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-title {
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.card-signin .card-body {
+    padding: 2rem;
+    background-color: #2e82ce;
+}
+
+.form-signin {
+    width: 95%;
+}
+
+.form-signin .btn {
+    font-size: 15px;
+    border-radius: 5px;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-label-group input {
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.form-label-group>input,
+.form-label-group>label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+    color: transparent;
+}
+
+.form-label-group input::placeholder {
+    color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown)~label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 12px;
+    color: #777;
+}
+
+.btn-google {
+    color: white;
+    background-color: #ea4335;
+    height: 50px;
+}
+
+.btn-facebook {
+    color: white;
+    background-color: #3b5998;
+    height: 50px;
+}
+
+/* Fallback for Edge
+-------------------------------------------------- */
+
+@supports (-ms-ime-align: auto) {
+    .form-label-group>label {
+        display: none;
+    }
+    .form-label-group input::-ms-input-placeholder {
+        color: #777;
+    }
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    .form-label-group>label {
+        display: none;
+    }
+    .form-label-group input:-ms-input-placeholder {
+        color: #777;
+    }
+}
+
+.carousel-item img{
+    margin-left: 120px;
+}
